@@ -11,11 +11,13 @@ body {
 }
 
 @media (min-width: 992px) {
-  body {
+  body.main-body {
     padding-top: 0;
     padding-left: 17rem;
   }
 }
+
+
 
 h1,
 h2,
@@ -72,7 +74,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #a94c4c;
 }
 
 .dev-icons {
@@ -80,7 +82,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #a94c4c;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -159,16 +161,35 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+section.blog-section {
+  padding-top: 2rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.blog-section .blog-item .blog-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.blog-section {
+    min-height: 80vh;
+  }
+  section.blog-section .blog-item .blog-date {
+    min-width: 18rem;
+  }
+}
+
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #a94c4c !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #a94c4c !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #a94c4c;
 }
 
 a:hover, a:focus, a:active {
